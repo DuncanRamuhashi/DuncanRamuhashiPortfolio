@@ -5,8 +5,10 @@ function Header(){
     return(
 
           <Header>
-
-               <text>dsdsfsdfsd</text>
+             <div>
+             <text>dsdsfsdfsd</text>
+             </div> 
+              
 
           </Header>
 
