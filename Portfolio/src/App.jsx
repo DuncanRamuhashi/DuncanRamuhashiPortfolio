@@ -1,15 +1,15 @@
 import { useState } from 'react'
-import Header from './Header'
 
-
+import CoverSetter from './CoverSetter';
 function App() {
   
 
   return (
     <>
-      <Header></Header>
+      <CoverSetter/>
+
     </>
-  )
+  );
 }
 
 export default App
