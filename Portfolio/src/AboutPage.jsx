@@ -7,11 +7,14 @@ import iHtml from './assets/iHtml.png'
 import iCss  from './assets/iCss.png'
 import iCshap from './assets/iCshap.png'
 import iAsse from './assets/iAsse.jpg'
+import iDot from './assets/iDot.jpg'
+import myPhoto from './assets/myPhoto.jpg';
 function AboutPage(){
         
     return( 
     
-    <div className="flex h-screen w-screen items-center justify-center">
+    <div className="flex h-screen w-screen items-center justify-center"> 
+    
         <div className="space-y-8 h-screen w-screen bg-black p-6 border-2 border-black  rounded-md shadow-lg items-center justify-center">
         <div className="text-center" >
               <h1 className=" text-blue-700 text-blue-700 justify-center"> About Me</h1>
@@ -19,6 +22,13 @@ function AboutPage(){
                 technogies, including HMTL,CSS, and JavaScript. Currently, I'm deeply engaged with React, Next.js, and Typescript. I maintain a 
                 perpertual commitment to honing my skills and keeping pace with the ever-evolving landspae of industry trends
               </h1>
+        </div>
+        <div className="text-center" >
+              <h1 className=" text-blue-700 text-blue-700 justify-center"> Education</h1>
+              <h1 className="text-stone-100 "> 1. Pre-School: dfsdfsdf </h1>
+              <h1 className="text-stone-100 "> 2. Primiry School: dgdfg </h1>
+              <h1 className="text-stone-100 "> 3. High School: dgsfg </h1>
+              <h1 className="text-stone-100 "> 4. Tetiary: dfsdfsdf </h1>
         </div>
         <div className="text-center" >
               <h1 className=" text-blue-700 text-blue-700 justify-center"> Skills </h1>
@@ -33,17 +43,7 @@ function AboutPage(){
                                              alt="react"
                                              className=" h-12 w-12 object-cover"
                           />
-                        <img
-                                             src={iMobile}
-                                             alt="mobile"
-                                             className=" h-12 w-12 object-cover"
-                          />
-                           <img
-                                             src={iJS}
-                                             alt="js"
-                                             className=" h-12 w-12 object-cover"
-                          />
-                           <img
+                                                     <img
                                              src={iJava}
                                              alt="java"
                                              className=" h-12 w-12 object-cover"
@@ -63,6 +63,22 @@ function AboutPage(){
                                              alt="Cshap"
                                              className=" h-12 w-12 object-cover"
                           />
+                          <img
+                                             src={iDot}
+                                             alt="net"
+                                             className=" h-12 w-12 object-cover"
+                          />
+                        <img
+                                             src={iMobile}
+                                             alt="mobile"
+                                             className=" h-12 w-12 object-cover"
+                          />
+                           <img
+                                             src={iJS}
+                                             alt="js"
+                                             className=" h-12 w-12 object-cover"
+                          />
+
                            <img
                                              src={iAsse}
                                              alt="Assemblyx86"
