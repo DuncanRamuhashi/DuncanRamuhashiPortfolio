@@ -13,7 +13,6 @@ function CoverSetter(){
             >
                  
                  <Heading/>
-
                  <MainPage/>
            </div>
         </div>

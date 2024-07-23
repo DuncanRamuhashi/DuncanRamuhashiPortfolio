@@ -6,7 +6,7 @@ function MainPage(){
 
        <body>
 
-         <div className=" space-y-4 h-1/2 rounded-b bg-black p-6 border-2 border-blue-700  w-1/2 rounded-md shadow-lg">
+         <div className="space-y-4 h-4/5 rounded-b bg-black p-6 border-2 border-black w-1/2 rounded-md shadow-lg">
          <h1 className=' text-4xl font-bold font-mono text-stone-100 '>Hello There!</h1>
          <div>
              <h1 className="text-stone-100 text-blue-700"> I'm </h1>
