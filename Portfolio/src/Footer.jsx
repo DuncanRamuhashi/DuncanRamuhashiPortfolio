@@ -1,0 +1,20 @@
+
+
+function Footer(){
+    return(
+        
+        <div className="flex bg-black  flex place-items-center py-9  ">
+            
+
+   
+            <footer className="bg-black  text-white p-4 text-center">
+            <p>&copy; 2024 Duncan Ramuhashi. All rights reserved.</p>
+          </footer>
+       
+   </div>
+    );
+    
+
+}
+
+export default Footer

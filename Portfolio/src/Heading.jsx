@@ -10,11 +10,10 @@ function Heading(){
              <div className='flex justify-items-start  '>
             
             <li className="flex" >
-                      
-                      
-                      <h1 className=' italic text-4xl font-bold font-mono text-blue-700'>Duncan</h1>
+                                       
+                      <h1 className=' italic text-4xl font-bold font-mono text-blue-700'>D</h1>
                       <h1 className='italic text-4xl font-bold font-mono text-zinc-200'>Ramuhashi.</h1>
-                      
+      
             </li>
                  
                 
