@@ -9,7 +9,7 @@ function Heading(){
             <div className=' flex flex-initial  flex container mx-auto flex place-items-center py-9 ps-8 justify-between ' >
              <div className='flex justify-items-start  '>
             
-            <li className="flex" >
+            <li className=" px-14 flex" >
                                        
                       <h1 className=' italic text-4xl font-bold font-mono text-blue-700'>D</h1>
                       <h1 className='italic text-4xl font-bold font-mono text-zinc-200'>Ramuhashi.</h1>

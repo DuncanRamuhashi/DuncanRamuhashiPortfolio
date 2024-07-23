@@ -18,7 +18,7 @@ function ContactPage(){
                      <textarea className=' px-8 h-70 w-96 bg-white '>Email </textarea>
                    <textarea className=' px-8 h-70 w-96 bg-white '>Message </textarea>   
        
-                   <button className='self-center bg-gray-100 h-10 w-40 outline-black ring ring-slate-950' >SUBMIT</button>     
+                   <button className='self-center bg-gray-100 h-10 w-40 outline-black ring ring-slate-950' href="#works" >SUBMIT</button>     
         </div>
          
         

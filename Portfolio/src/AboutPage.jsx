@@ -15,9 +15,9 @@ function AboutPage(){
     
     <div className="flex h-screen w-screen items-center justify-center"> 
     
-        <div className="space-y-8 h-screen w-screen bg-black p-6 border-2 border-black  rounded-md shadow-lg items-center justify-center">
+        <div className="space-y-8 h-screen w-screen bg-black p-6 border-2 border-black   shadow-lg items-center justify-center">
         <div className="text-center" >
-              <h1 className=" text-blue-700 text-blue-700 justify-center"> About Me</h1>
+              <h1 className=" text-blue-700 text-4xl font-bold font-mono justify-center"> About Me</h1>
               <h1 className="text-stone-100 ">Greetings! I'm Duncan Ramuhashi, a dedicated Full Stack Developer. My expertise lies in 
                 technogies, including HMTL,CSS, and JavaScript. Currently, I'm deeply engaged with React, Next.js, and Typescript. I maintain a 
                 perpertual commitment to honing my skills and keeping pace with the ever-evolving landspae of industry trends
