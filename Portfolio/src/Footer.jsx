@@ -3,7 +3,7 @@
 function Footer(){
     return(
         
-        <div className="flex bg-black  flex place-items-center py-9  ">
+        <div className="flex bg-black items-center justify-center py-9  ">
             
 
    
