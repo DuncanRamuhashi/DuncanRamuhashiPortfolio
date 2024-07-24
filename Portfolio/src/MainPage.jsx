@@ -13,7 +13,7 @@ function MainPage(){
                                              src={helloPic}
                                              alt="Example Image"
                                              className="w-8 h-8 object-cover "
-                                          />
+                  />
          </div>
         
          <div className='flex flex-row space-x-4'>

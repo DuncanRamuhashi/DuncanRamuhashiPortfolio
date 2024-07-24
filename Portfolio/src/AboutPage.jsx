@@ -13,26 +13,63 @@ function AboutPage(){
         
     return( 
     
-    <div className="flex h-screen w-screen items-center justify-center"> 
-    
-        <div className="space-y-8 h-screen w-screen bg-black p-6 border-2 border-black   shadow-lg items-center justify-center">
-        <div className="text-center" >
+      <div className="flex items-center justify-center min-h-screen bg-black">
+      <div className="text-center space-y-2 bg-black p-8 px-72 rounded shadow">
+        <div className="mb-2">
               <h1 className=" text-blue-700 text-4xl font-bold font-mono justify-center"> About Me</h1>
-              <h1 className="text-stone-100 ">Greetings! I'm Duncan Ramuhashi, a dedicated Full Stack Developer. My expertise lies in 
-                technogies, including HMTL,CSS, and JavaScript. Currently, I'm deeply engaged with React, Next.js, and Typescript. I maintain a 
-                perpertual commitment to honing my skills and keeping pace with the ever-evolving landspae of industry trends
-              </h1>
+              <div className="  text-center text-justify shadow p-12  bg-black ">
+                  <h1 className=" text-sm text-zinc-400 px-4  ">Greetings!, I am a dedicated Full Stack Developer. My expertise lies in 
+                   technogies, including HMTL,CSS, and JavaScript. Currently, I'm deeply engaged with React, Next.js, and Typescript. I maintain a 
+                   perpertual commitment to honing my skills and keeping pace with the ever-evolving landspae of industry trends.
+                 </h1>
+            <div className=" p-4 grid grid-cols-4 gap-4" >
+              <div>
+              <h1 className="text-zinc-400 "> Name </h1>
+              <h1 className="text-stone-100 "> Duncan Ramuhashi</h1>
+              </div>
+              
+              <div>
+              <h1 className="text-zinc-400 "> Phone </h1>
+              <h1 className="text-stone-100 "> +27 6769 31862 </h1>
+              </div>
+
+              <div>
+              <h1 className="text-zinc-400 "> Address</h1>
+              <h1 className="text-stone-100 pr-16 "> Soweto,Johannesburg,South Africa </h1>
+              </div>
+
+              <div>
+              <h1 className="text-zinc-400 "> Email</h1>
+              <h1 className="text-stone-100  pr-16"> duncanramohashi@gmail.com </h1>
+              </div>
+              <div>
+              <h1 className="text-zinc-400 "> Education </h1>
+              <h1 className=" text-stone-100 pr-16 "> BSc in Computer Science and Informatics </h1>
+              </div>
+              <div>
+ 
+              <h1 className="text-zinc-400 "> Tertiary</h1>
+              <h1 className="text-stone-100  pr-16"> University of Johanneburg</h1>
+              </div>
+              <div>
+ 
+                  <h1 className="text-zinc-400 "> Years of Experience</h1>
+                  <h1 className="text-stone-100  pr-16"> 01+</h1>
+             </div>
+             <div>
+ 
+                <h1 className="text-zinc-400 "> Languages</h1>
+                <h1 className="text-stone-100  pr-40"> English,Tshivenḓa,Zulu,Pedi,Tswana,Sotho,Afrikaans</h1>
+              </div>
+  
         </div>
-        <div className="text-center" >
-              <h1 className=" text-blue-700 text-blue-700 justify-center"> Education</h1>
-              <h1 className="text-stone-100 "> 1. Pre-School: dfsdfsdf </h1>
-              <h1 className="text-stone-100 "> 2. Primiry School: dgdfg </h1>
-              <h1 className="text-stone-100 "> 3. High School: dgsfg </h1>
-              <h1 className="text-stone-100 "> 4. Tetiary: dfsdfsdf </h1>
+            </div>
+              
         </div>
+       
         <div className="text-center" >
-              <h1 className=" text-blue-700 text-blue-700 justify-center"> Skills </h1>
-              <div className=" flex p-10  space-x-14  ">  
+              <h1 className=" text-blue-700 text-2xl font-bold font-mono justify-center"> Skills </h1>
+              <div className="flex items-center justify-center p-10  space-x-14  ">  
                          <img
                                              src={iSql}
                                              alt="sql"
