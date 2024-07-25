@@ -5,7 +5,7 @@ import newProf from './assets/newProf.jpg';
 function CoverSetter(){
     return(
               
-        <div className="flex  justify-center h-screen w-screen bg-zinc-950" >
+        <div className="flex  justify-center h-screen w-screen  bg-black" >
             
             <div
                  className=" from-transparent  bg-center relative bg-cover h-screen w-screen bg-no-repeat"

@@ -3,7 +3,7 @@
 function Footer(){
     return(
         
-        <div className="flex bg-black items-center justify-center py-9  ">
+        <div className="flex bg-black items-center justify-center py-9 w-screen ">
             
 
    

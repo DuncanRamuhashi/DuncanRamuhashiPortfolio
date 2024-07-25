@@ -1,36 +1,50 @@
 import jjk from './assets/jjk.jpg'
-
+import pro1 from './assets/pro1.jpg'
 function ExWork(){
 
              return(
-                <div className="flex h-screen w-screen items-center justify-center"> 
+                <div className="flex items-center  w-screen justify-center "> 
     
-                   <div className="space-y-8 h-screen w-screen bg-black p-6 border-2 border-black  rounded-md shadow-lg items-center justify-center">
+                   <div className="space-y-8 w-screen pt-6 bg-black p-6 border-2 border-black ps-40 shadow-lg ">
                           
 
                       <div>
-                            <h1 className=" text-blue-700"> My Work Experience</h1>
-                            <div>
-                            <h1 className=" text-stone-100">2023</h1>
-                            <h1 className=" text-stone-100"> dfdsfd</h1>
+                            <h1 className=" text-zinc-200  text-4xl font-bold font-mono justify-center"> My Work Experience</h1>
+                            <div className="flex items-center pt-10 grid grid-cols-none gap-4 " >
+              <div className=" grid grid-cols-2 gap-4">
+              <h1 className="text-zinc-400 "> Sep-Dec(2023) </h1>
+              <div className="flex flex-row space-x-2">
+              <h1 className="text-stone-100 "> DynamicDNA</h1>
+              <h1 className="text-zinc-400 ">(C#)</h1>
+              </div>
+              
+              </div>
+              
+              <div className=" grid grid-cols-2 gap-4">
+              <h1 className="text-zinc-400 "> 2023-2024</h1>
+              <div className="flex flex-row space-x-2">
+              <h1 className="text-stone-100 "> The DaataEnablement Company</h1>
+              <h1 className="text-zinc-400 ">(Trainee)</h1>
+              </div>
+              </div>
 
-                            </div>
-                             <div>
-                            <h1 className=" text-stone-100">2023-2024</h1>
-                            <h1 className=" text-stone-100"> dfdsfd</h1>
-                            
-                            </div>
-                            <div>
-                            <h1 className="text-stone-100">2024</h1>
-                            <h1 className=" text-stone-100"> dfdsfd</h1>
-                            
-                            </div>
+              <div className=" grid grid-cols-2 gap-4">
+               
+              <h1 className="text-zinc-400 "> 2024-Present</h1>
+              <div className="flex flex-row space-x-2">
+              <h1 className="text-stone-100 "> Tshimologong - Digital Innovation Precinct </h1>
+              <h1 className="text-zinc-400 ">(Junior Full-Stack Developer)</h1>
+              </div>
+              
+              
+              </div>
+
+  
+
+  
+        </div>
                       </div>
-                      <img
-                                             src={jjk}
-                                             alt="Example Image"
-                                             className=" h-48 w-48 object-cover"
-                                          />
+           
                    </div>
                
                </div>

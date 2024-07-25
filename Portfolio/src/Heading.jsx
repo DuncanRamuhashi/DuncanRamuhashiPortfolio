@@ -4,7 +4,7 @@ function Heading(){
 
     return(
 
-             <header className='flex  text-white bg-cover   '  >
+             <header  >
             
             <div className=' flex flex-initial  flex container mx-auto flex place-items-center py-9 ps-8 justify-between ' >
              <div className='flex justify-items-start  '>

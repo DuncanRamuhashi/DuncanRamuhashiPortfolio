@@ -13,10 +13,10 @@ function AboutPage(){
         
     return( 
     
-      <div className="flex items-center justify-center min-h-screen bg-black">
-      <div className="text-center space-y-2 bg-black p-8 px-72 rounded shadow">
+      <div className="flex items-center justify-center h-screen w-screen  bg-black">
+      <div className="text-center space-y-14 bg-black p-8 px-72 rounded   shadow ">
         <div className="mb-2">
-              <h1 className=" text-blue-700 text-4xl font-bold font-mono justify-center"> About Me</h1>
+              <h1 className=" pt-14 text-blue-700 text-4xl font-bold font-mono justify-center"> About Me</h1>
               <div className="  text-center text-justify shadow p-12  bg-black ">
                   <h1 className=" text-sm text-zinc-400 px-4  ">Greetings!, I am a dedicated Full Stack Developer. My expertise lies in 
                    technogies, including HMTL,CSS, and JavaScript. Currently, I'm deeply engaged with React, Next.js, and Typescript. I maintain a 
@@ -59,7 +59,7 @@ function AboutPage(){
              <div>
  
                 <h1 className="text-zinc-400 "> Languages</h1>
-                <h1 className="text-stone-100  pr-40"> English,Tshivenḓa,Zulu,Pedi,Tswana,Sotho,Afrikaans</h1>
+                <h1 className="text-stone-100  pr-40"> English,Tshivenḓa</h1>
               </div>
   
         </div>
@@ -69,7 +69,7 @@ function AboutPage(){
        
         <div className="text-center" >
               <h1 className=" text-blue-700 text-2xl font-bold font-mono justify-center"> Skills </h1>
-              <div className="flex items-center justify-center p-10  space-x-14  ">  
+              <div className="flex items-center justify-center p-10 space-x-14   ">  
                          <img
                                              src={iSql}
                                              alt="sql"
