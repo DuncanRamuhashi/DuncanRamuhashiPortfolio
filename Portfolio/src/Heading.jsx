@@ -23,20 +23,23 @@ function Heading(){
             <nav    className=' justify-items-end'>
                 <ul  className='flex space-x-8' >
                 <li className='hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2 text-1xl text-zinc-100'>
-                     <a href="#about">About</a>
+                     <a href="#AboutPage">About Me</a>
                     </li>
 
                 <li className=' hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2 text-1xl text-zinc-100'>
-                <a href="#experience">Experience</a></li>
+                <a href="#ExWork">Experience</a></li>
                 <li className=' hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2 text-1xl text-zinc-100'>
-                <a href="#activities">Activities</a></li>
+                <a href="#Activity">Activities</a></li>
                 <li className=' hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2text-1xl text-zinc-100'>
-                <a href="#works">Works</a></li>
+                <a href="#Work">Projects</a></li>
              
                 </ul>             
             </nav>
             <div className='  pe-12'>
-                  <button className=' justify-items-end h-10   w-36 ring-2 rounded-full border-black border-y-8 ring-blue-700 mix-blend-normal  text-1xl text-blue-700'>Contact Me</button>
+                <a href="#ContactPage">
+                <button className=' justify-items-end h-10   w-36 ring-2 rounded-full border-black border-y-8 ring-blue-700 mix-blend-normal  text-1xl text-blue-700'>Contact Me</button>
+                </a>
+                  
             </div>
                
             </div>

@@ -1,5 +1,5 @@
 import jjk from './assets/jjk.jpg'
-import pro1 from './assets/pro1.jpg'
+
 function ExWork(){
 
              return(

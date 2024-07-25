@@ -11,7 +11,7 @@ function Footer(){
             <p>&copy; 2024 Duncan Ramuhashi. All rights reserved.</p>
           </footer>
        
-   </div>
+   </div> 
     );
     
 

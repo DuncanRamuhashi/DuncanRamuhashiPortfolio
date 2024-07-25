@@ -12,13 +12,20 @@ function App() {
 
   return (
     <>
+   
       <CoverSetter/>
-      <AboutPage/>
-      <ExWork/>
-      <Activity/>
-      <Work/>
-      <ContactPage/>
-      <Footer/>
+      <section id="AboutPage"><AboutPage/></section>
+      <section id="ExWork"><ExWork/></section>
+      <section id="Activity"> <Activity/></section>
+      <section id="Work"><Work/></section>
+      <section id="ContactPage"><ContactPage/></section>
+      <section id="Footer"><Footer/></section>
+     
+      
+     
+      
+      
+      
     </>
   );
 }
