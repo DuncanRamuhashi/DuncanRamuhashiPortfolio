@@ -13,12 +13,12 @@ import iCshap from './assets/iCshap.png'
 import iAsse from './assets/iAsse.jpg'
 import iDot from './assets/iDot.jpg'
 import socGit from './assets/socGit.png'
-function Work(){
+function Projects(){
 
     return(
       <div className="flex items-center h-screen w-screen bg-black justify-center"> 
     
-      <div className="space-y-8  bg-black p-6 border-2 border-black  shadow-lg items-center justify-center">
+      <div className="space-y-8  h-full w-full bg-black p-6 border-2 border-black  shadow-lg items-center justify-center">
       <div>
 
                 
@@ -27,13 +27,13 @@ function Work(){
 <div className="space-y-4 ">
 <h1 className="text-blue-700 text-center text-4xl font-bold font-mono justify-center">Portfolio Projects</h1>
 <h1 className="text-zinc-400  text-xl font-mono  text-center">
- Here are some of the projects
+ All Projects
 </h1>
 </div>
 
 
-<div className="  rounded-lg  snap-x  flex space-x-4 p-12  " >
-<div class="flex space-x-4 justify-center ">
+<div className=" h-full w-full  rounded-lg  snap-x  flex space-x-4 p-10  " >
+<div class="flex h-full w-full  space-x-4 justify-center ">
 
 
      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
@@ -130,12 +130,7 @@ function Work(){
       </div>
 </div>
 </div>
-    <div className="flex items-center justify-center">
-      <a href='Projects'>
-      <button className=' h-10   w-36 ring-2 rounded-full border-black border-y-8 ring-blue-700 mix-blend-normal  text-1xl text-blue-700'>See More</button>
-      </a>
-                 
-     </div>
+
 </div>
 </div>
 
@@ -148,4 +143,4 @@ function Work(){
     );
 }
 
-export default Work
+export default Projects

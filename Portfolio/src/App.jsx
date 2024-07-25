@@ -7,6 +7,7 @@ import Activity from './Activity';
 import Work from './Work';
 import ContactPage from './ContactPage';
 import Footer from './Footer';
+import Projects from './Projects';
 function App() {
   
 
@@ -20,6 +21,7 @@ function App() {
       <section id="Work"><Work/></section>
       <section id="ContactPage"><ContactPage/></section>
       <section id="Footer"><Footer/></section>
+
      
       
      
