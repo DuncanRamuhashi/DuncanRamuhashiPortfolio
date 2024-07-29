@@ -22,6 +22,9 @@ import iDot from './assets/iDot.jpg'
 import socGit from './assets/socGit.png'
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+
+import FooterPage from './FooterPage'
+
 function Projects(){
    const navigate = useNavigate();
     return(
@@ -30,7 +33,7 @@ function Projects(){
       <div className="space-y-8  bg-black p-6 border-2 border-black  shadow-lg items-center justify-center">
       <div>
       <button 
-            className="bg-blue-700  text-white px-4 py-2 rounded" 
+            className=" ml-8 bg-blue-700  text-white px-4 py-2 rounded" 
             onClick={() => navigate(-1)} 
           >
             Back
@@ -47,7 +50,7 @@ function Projects(){
 
 
 <div className="  rounded-lg  snap-x  flex space-x-4 p-10  " >
-<div class="grid gap-x-8 gap-y-4 grid-cols-3   ">
+<div class="flex flex-col  gap-y-8 md:grid md:grid-cols-3 md:gap-x-8">
 
 
      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
@@ -56,7 +59,7 @@ function Projects(){
         </a>
        
         <div className='flex flex-row '>
-        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 1</h1> 
+        <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 1</h1> 
         <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
@@ -120,7 +123,7 @@ function Projects(){
         </a>
         
                <div className='flex flex-row '>
-               <h1 className="text-zinc-400  text-xl font-mono justify-center text-center "> Dronoticz 3 </h1> 
+               <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 3 </h1> 
         <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
@@ -150,7 +153,7 @@ function Projects(){
         </a>
        
         <div className='flex flex-row '>
-        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 4</h1> 
+        <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 4</h1> 
         <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
@@ -182,7 +185,7 @@ function Projects(){
         </a>
        
         <div className='flex flex-row '>
-        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 5</h1> 
+        <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 5</h1> 
         <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
@@ -213,7 +216,7 @@ function Projects(){
         </a>
        
         <div className='flex flex-row '>
-        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 6</h1> 
+        <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 6</h1> 
         <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
@@ -243,7 +246,7 @@ function Projects(){
         </a>
        
         <div className='flex flex-row '>
-        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 7</h1> 
+        <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 7</h1> 
         <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
@@ -286,6 +289,7 @@ function Projects(){
     </div>
    
 </div>
+      
     );
 }
 

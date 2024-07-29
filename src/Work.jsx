@@ -40,11 +40,11 @@ import { useNavigate } from 'react-router-dom';
 </div>
 
 
-<div className="  rounded-lg  snap-x  flex space-x-4 p-12  " >
-<div class="flex space-x-4 justify-center ">
+<div className="  flex space-x-4 p-12  " >
+<div class="flex space-x-4 justify-center flex-row ">
 
 
-     <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+     <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8 invisible md:visible">
         <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
           <img src={pro1} alt="Image 1" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />
         </a>
@@ -75,7 +75,7 @@ import { useNavigate } from 'react-router-dom';
       </div>
       </div>
 
-      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8 ">
         
       <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
           <img src={pro2} alt="Image 2" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />
@@ -107,7 +107,7 @@ import { useNavigate } from 'react-router-dom';
       </div>
       </div>
 
-             <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+             <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8 invisible md:visible">
         
       <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
           <img src={pro3} alt="Image 2" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />

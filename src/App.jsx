@@ -33,8 +33,11 @@ function App() {
               <section id="ContactPage"><ContactPage /></section>
               <section id="FooterPage"><FooterPage /></section> 
             </>
+            
           } 
+          
         />
+        
       </Routes>
     </Router>
     </>
