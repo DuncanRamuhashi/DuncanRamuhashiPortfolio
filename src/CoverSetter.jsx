@@ -16,6 +16,10 @@ function CoverSetter(){
                  <MainPage/>
            </div>
         </div>
+           
+
+
+           
        );
    
 

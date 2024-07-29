@@ -9,11 +9,14 @@ import iCshap from './assets/iCshap.png'
 import iAsse from './assets/iAsse.jpg'
 import iDot from './assets/iDot.jpg'
 import myPhoto from './assets/myPhoto.jpg';
+
+
+
 function AboutPage(){
         
     return( 
     
-      <div  className="flex items-center justify-center h-screen w-screen  bg-black">
+      <div  className="flex items-center justify-center h-screen w-screen  bg-black" >
       <div className="text-center space-y-14 bg-black p-8 px-72 rounded   shadow ">
         <div className="mb-2">
               <h1 className=" pt-14 text-blue-700 text-4xl font-bold font-mono justify-center"> About Me</h1>

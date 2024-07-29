@@ -1,6 +1,6 @@
 
 
-function Footer(){
+function FooterPage(){
     return(
         
         <div className="flex bg-black items-center justify-center py-9 w-screen ">
@@ -17,4 +17,4 @@ function Footer(){
 
 }
 
-export default Footer
+export default FooterPage

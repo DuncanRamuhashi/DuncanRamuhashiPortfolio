@@ -13,8 +13,16 @@ import iCshap from './assets/iCshap.png'
 import iAsse from './assets/iAsse.jpg'
 import iDot from './assets/iDot.jpg'
 import socGit from './assets/socGit.png'
-function Work(){
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
+
+ function  Work(){      
+   const navigate  =  useNavigate();
+
+   const goToProjects = () => {
+    navigate('/projects');
+   };
     return(
       <div className="flex items-center h-screen w-screen bg-black justify-center"> 
     
@@ -51,7 +59,7 @@ function Work(){
         <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> To shape the future.</h1>
         </div>
          
-        <div className="flex flex-row justify-center space-x-8 ">
+        <div className=" grid grid-cols-4 justify-center gap-y-4   ">
                   <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
                       <img src={iHtml} alt="html" className="w-8 h-8 object-cover" />
                    </a>
@@ -83,7 +91,7 @@ function Work(){
         <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> Revolutionize industries.</h1>
         
         </div>
-        <div className="flex flex-row justify-center space-x-8">
+        <div className=" grid grid-cols-4 justify-center gap-y-4  ">
                   <a href="https://docs.oracle.com/en/java/" target="_blank">
                       <img src={iJava} alt="java" className="w-8 h-8 object-cover" />
                    </a>
@@ -115,7 +123,7 @@ function Work(){
         <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> We unlock new frontiers.</h1>
         
         </div>
-        <div className="flex flex-row justify-center space-x-8">
+        <div className=" grid grid-cols-4 justify-center gap-y-4  ">
                   <a href="https://docs.oracle.com/en/java/" target="_blank">
                       <img src={iSql} alt="java" className="w-8 h-8 object-cover" />
                    </a>
@@ -131,8 +139,8 @@ function Work(){
 </div>
 </div>
     <div className="flex items-center justify-center">
-      <a href='Projects'>
-      <button className=' h-10   w-36 ring-2 rounded-full border-black border-y-8 ring-blue-700 mix-blend-normal  text-1xl text-blue-700'>See More</button>
+      <a onClick={goToProjects}>
+      <button  className=' h-10  w-36 ring-2 rounded-full border-black border-y-8 ring-blue-700 mix-blend-normal  text-1xl text-blue-700'>See More</button>
       </a>
                  
      </div>

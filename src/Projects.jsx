@@ -1,6 +1,13 @@
 import pro1 from './assets/pro1.jpg'
 import pro2 from './assets/pro2.jpg'
 import pro3 from './assets/pro3.jpg'
+import pro4 from './assets/pro4.jpg'
+import pro5 from './assets/pro5.jpg'
+import pro6 from './assets/pro6.jpg'
+import pro7 from './assets/pro7.jpg'
+import pro8 from './assets/pro8.jpg'
+import pro9 from './assets/pro9.jpg'
+
 import jjk from './assets/jjk.jpg'
 import iSql from './assets/iSql.png'
 import iReact from './assets/iReact.png'
@@ -13,14 +20,21 @@ import iCshap from './assets/iCshap.png'
 import iAsse from './assets/iAsse.jpg'
 import iDot from './assets/iDot.jpg'
 import socGit from './assets/socGit.png'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 function Projects(){
-
+   const navigate = useNavigate();
     return(
-      <div className="flex items-center h-screen w-screen bg-black justify-center"> 
+      <div className="flex items-center  bg-black justify-center"> 
     
-      <div className="space-y-8  h-full w-full bg-black p-6 border-2 border-black  shadow-lg items-center justify-center">
+      <div className="space-y-8  bg-black p-6 border-2 border-black  shadow-lg items-center justify-center">
       <div>
-
+      <button 
+            className="bg-blue-700  text-white px-4 py-2 rounded" 
+            onClick={() => navigate(-1)} 
+          >
+            Back
+          </button>
                 
                 <div className="flex   items-center justify-center">
 <div className="space-y-8 bg-black  p-6 border-2 border-black rounded-md shadow-lg ">
@@ -32,8 +46,8 @@ function Projects(){
 </div>
 
 
-<div className=" h-full w-full  rounded-lg  snap-x  flex space-x-4 p-10  " >
-<div class="flex h-full w-full  space-x-4 justify-center ">
+<div className="  rounded-lg  snap-x  flex space-x-4 p-10  " >
+<div class="grid gap-x-8 gap-y-4 grid-cols-3   ">
 
 
      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
@@ -51,7 +65,7 @@ function Projects(){
         <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> To shape the future.</h1>
         </div>
          
-        <div className="flex flex-row justify-center space-x-8 ">
+        <div className=" grid grid-cols-4 justify-center gap-y-4   ">
                   <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
                       <img src={iHtml} alt="html" className="w-8 h-8 object-cover" />
                    </a>
@@ -83,7 +97,7 @@ function Projects(){
         <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> Revolutionize industries.</h1>
         
         </div>
-        <div className="flex flex-row justify-center space-x-8">
+        <div className=" grid grid-cols-4 justify-center gap-y-4  ">
                   <a href="https://docs.oracle.com/en/java/" target="_blank">
                       <img src={iJava} alt="java" className="w-8 h-8 object-cover" />
                    </a>
@@ -115,7 +129,7 @@ function Projects(){
         <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> We unlock new frontiers.</h1>
         
         </div>
-        <div className="flex flex-row justify-center space-x-8">
+        <div className=" grid grid-cols-4 justify-center gap-y-4  ">
                   <a href="https://docs.oracle.com/en/java/" target="_blank">
                       <img src={iSql} alt="java" className="w-8 h-8 object-cover" />
                    </a>
@@ -128,6 +142,138 @@ function Projects(){
                    </a>
       </div>
       </div>
+
+
+      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+        <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
+          <img src={pro4} alt="Image 1" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />
+        </a>
+       
+        <div className='flex flex-row '>
+        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 4</h1> 
+        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+                      <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
+                   </a>
+        </div>
+        <div className='flex  '>
+        <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> To shape the future.</h1>
+        </div>
+         
+        <div className=" grid grid-cols-4 justify-center gap-y-4   ">
+                  <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                      <img src={iHtml} alt="html" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                      <img src={iCss} alt="css" className="w-8 h-8object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iJS} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iReact} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+      </div>
+      </div>
+
+
+      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+        <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
+          <img src={pro5} alt="Image 1" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />
+        </a>
+       
+        <div className='flex flex-row '>
+        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 5</h1> 
+        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+                      <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
+                   </a>
+        </div>
+        <div className='flex  '>
+        <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> To shape the future.</h1>
+        </div>
+         
+        <div className=" grid grid-cols-4 justify-center gap-y-4   ">
+                  <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                      <img src={iHtml} alt="html" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                      <img src={iCss} alt="css" className="w-8 h-8object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iJS} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iReact} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+      </div>
+      </div>
+
+      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+        <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
+          <img src={pro6} alt="Image 1" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />
+        </a>
+       
+        <div className='flex flex-row '>
+        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 6</h1> 
+        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+                      <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
+                   </a>
+        </div>
+        <div className='flex  '>
+        <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> To shape the future.</h1>
+        </div>
+         
+        <div className=" grid grid-cols-4 justify-center gap-y-4  ">
+                  <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                      <img src={iHtml} alt="html" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                      <img src={iCss} alt="css" className="w-8 h-8object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iJS} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iReact} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+      </div>
+      </div>
+      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8">
+        <a href="https://assignment-1-css-core-concepts-4dr207ccv.vercel.app/" target="_blank">
+          <img src={pro7} alt="Image 1" className="w-64 h-64 object-cover rounded ring-2 ring-blue-900" />
+        </a>
+       
+        <div className='flex flex-row '>
+        <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 7</h1> 
+        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+                      <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
+                   </a>
+        </div>
+        <div className='flex  '>
+        <h1 className="text-zinc-600  text-sm font-mono justify-center text-center"> To shape the future.</h1>
+        </div>
+         
+        <div className=" grid grid-cols-4 justify-center gap-y-4  ">
+                  <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                      <img src={iHtml} alt="html" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                      <img src={iCss} alt="css" className="w-8 h-8object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iJS} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                      <img src={iReact} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://dev.mysql.com/doc/" target="_blank">
+                      <img src={iSql} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+                   <a href="https://www.cs.virginia.edu/~evans/cs216/guides/x86.html" target="_blank">
+                      <img src={iAsse} alt="js" className="w-8 h-8 object-cover" />
+                   </a>
+      </div>
+      </div>
+
 </div>
 </div>
 

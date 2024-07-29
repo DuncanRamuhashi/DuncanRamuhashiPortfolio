@@ -23,7 +23,7 @@ function MainPage(){
             
          </div>
           <h1 className="text-zinc-400 text-justify text-center ">
-          I am a Full-Stack Developer from Johannesburg. Welcome, noble guest, to my portfolio website. I thank thee for thy visit and hope thou dost find joy in exploring my humble work.
+          Welcome to my portfolio website! I am a Full-Stack Developer from Johannesburg. Thank you for visiting, and I hope you enjoy exploring my work.
           </h1>
           <img
                                              src={myPhoto}

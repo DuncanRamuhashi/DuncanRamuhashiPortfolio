@@ -1,52 +1,42 @@
 
 
+
 function Heading(){
 
+
+
     return(
-
-             <header  >
-            
-            <div className=' flex flex-initial  flex container mx-auto flex place-items-center py-9 ps-8 justify-between ' >
-             <div className='flex justify-items-start  '>
-            
-            <li className=" px-14 flex" >
-                                       
-                      <h1 className=' italic text-4xl font-bold font-mono text-blue-700'>D</h1>
-                      <h1 className='italic text-4xl font-bold font-mono text-zinc-200'>Ramuhashi.</h1>
-           
-            </li>
-                 
-                
-            
-            </div>   
-            
-            <nav    className=' justify-items-end'>
-                <ul  className='flex space-x-8' >
-                <li className='hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2 text-1xl text-zinc-100'>
-                     <a href="#AboutPage">About Me</a>
-                    </li>
-
-                <li className=' hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2 text-1xl text-zinc-100'>
-                <a href="#ExWork">Experience</a></li>
-                <li className=' hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2 text-1xl text-zinc-100'>
-                <a href="#Activity">Activities</a></li>
-                <li className=' hover:underline hover:decoration-blue-700 hover:decoration-solid hover:underline-offset-8  hover:decoration-2text-1xl text-zinc-100'>
-                <a href="#Work">Projects</a></li>
-             
-                </ul>             
-            </nav>
-            <div className='  pe-12'>
-                <a href="#ContactPage">
-                <button className=' justify-items-end h-10   w-36 ring-2 rounded-full border-black border-y-8 ring-blue-700 mix-blend-normal  text-1xl text-blue-700'>Contact Me</button>
-                </a>
-                  
-            </div>
-               
-            </div>
-            
-            
-        </header>
-        
+        <header className="bg-black">
+        <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-0">
+          <div className="flex items-center space-x-2">
+            <h1 className="italic text-4xl font-bold font-mono text-blue-700">D</h1>
+            <h1 className="italic text-4xl font-bold font-mono text-zinc-200">Ramuhashi.</h1>
+          </div>
+          <nav className="flex items-center justify-end md:flex-grow md:justify-center md:space-x-8">
+            <ul className="hidden md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+              <li>
+                <a className="text-gray-200 hover:text-blue-700" href="#AboutPage">About Me</a>
+              </li>
+              <li>
+                <a className="text-gray-200 hover:text-blue-700" href="#ExWork">Experience</a>
+              </li>
+              <li>
+                <a className="text-gray-200 hover:text-blue-700" href="#Activity">Activities</a>
+              </li>
+              <li>
+                <a className="text-gray-200 hover:text-blue-700" href="#Work">Projects</a>
+              </li>
+            </ul>
+            <a href="#ContactPage" className="md:hidden">
+              <button className="bg-blue-700 text-white px-4 py-2 rounded-lg">Contact Me</button>
+            </a>
+          </nav>
+          <a href="#ContactPage" className="hidden md:block">
+            <button className="bg-blue-700 text-white px-4 py-2 rounded-lg">Contact Me</button>
+          </a>
+        </div>
+      </header>
+      
 
     );
 }
