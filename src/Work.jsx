@@ -24,14 +24,14 @@ import { useNavigate } from 'react-router-dom';
     navigate('/projects');
    };
     return(
-      <div className="flex items-center h-screen w-screen bg-black justify-center"> 
+      <div className="flex items-center h-full md:w-screen bg-black justify-center"> 
     
-      <div className="space-y-8  bg-black p-6 border-2 border-black  shadow-lg items-center justify-center">
+      <div className="space-y-8  bg-black  border-2 border-black  shadow-lg items-center justify-center">
       <div>
 
                 
                 <div className="flex   items-center justify-center">
-<div className="space-y-8 bg-black  p-6 border-2 border-black rounded-md shadow-lg ">
+<div className="space-y-8 bg-black   border-2 border-black rounded-md shadow-lg ">
 <div className="space-y-4 ">
 <h1 className="text-blue-700 text-center text-4xl font-bold font-mono justify-center">Portfolio Projects</h1>
 <h1 className="text-zinc-400  text-xl font-mono  text-center">
@@ -41,7 +41,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 <div className="  flex space-x-4 p-12  " >
-<div class="flex space-x-4 justify-center flex-row ">
+<div class="flex space-x-4 justify-center flex-col md:flex-row ">
 
 
      <div className="rounded-lg snap-start flex-shrink-0 space-y-2 border-8 border-zinc-800 px-8 py-8 invisible md:visible">
@@ -51,7 +51,7 @@ import { useNavigate } from 'react-router-dom';
        
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono justify-center text-center"> Dronoticz 1</h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-20 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -82,7 +82,7 @@ import { useNavigate } from 'react-router-dom';
         </a>
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 2 </h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-20 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -115,7 +115,7 @@ import { useNavigate } from 'react-router-dom';
         
                <div className='flex flex-row '>
                <h1 className="text-zinc-400  text-xl font-mono justify-center text-center "> Dronoticz 3 </h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-20 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>

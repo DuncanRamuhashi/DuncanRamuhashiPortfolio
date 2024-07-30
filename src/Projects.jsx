@@ -60,7 +60,7 @@ function Projects(){
        
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 1</h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className='ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -91,7 +91,7 @@ function Projects(){
         </a>
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 2 </h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -124,7 +124,7 @@ function Projects(){
         
                <div className='flex flex-row '>
                <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 3 </h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -154,7 +154,7 @@ function Projects(){
        
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 4</h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className='ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -186,7 +186,7 @@ function Projects(){
        
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 5</h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className='ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -217,7 +217,7 @@ function Projects(){
        
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 6</h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>
@@ -247,7 +247,7 @@ function Projects(){
        
         <div className='flex flex-row '>
         <h1 className="text-zinc-400  text-xl font-mono   "> Dronoticz 7</h1> 
-        <a className='ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
+        <a className=' ml-8 md:ml-28' href="https://github.com/DuncanRamuhashi/Assignment-1-CSS-Core-Concepts/tree/main" target="_blank">
                       <img src={socGit} alt="link" className="w-7 h-7 object-cover " />
                    </a>
         </div>

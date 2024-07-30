@@ -19,7 +19,7 @@ function App() {
            <Routes>
         
              <Route path="/projects" element={<Projects />} />
-             
+             <Route path="/themba" element={<Work/>} />
         
            <Route 
           path="*" 
