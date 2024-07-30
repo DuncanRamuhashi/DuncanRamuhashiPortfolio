@@ -28,7 +28,7 @@ function Activity(){
                   <img src={e2} alt="Image 2" className="w-40 h-40 md:w-64 md:h-64 rounded-md object-cover" />
                 </div>
                 <div className="snap-start flex-shrink-0">
-                  <img src={e3} alt="Image 3" className="w-40 h-3=40  md:w-64 md:h-64 rounded-md object-cover" />
+                  <img src={e3} alt="Image 3" className="w-40 h-40  md:w-64 md:h-64 rounded-md object-cover" />
                 </div>
                 <div className="snap-start flex-shrink-0">
                   <img src={e4} alt="Image 4" className="w-40 h-40 md:w-64 md:h-64 rounded-md object-cover" />
